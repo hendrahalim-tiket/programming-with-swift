@@ -1,4 +1,5 @@
 import UIKit
+import Foundation
 
 // MARK: - Constant Cannot be modified
 //let constantValue = 15
@@ -14,7 +15,7 @@ import UIKit
 //print(constantValue)
 //print(valueUndefined)
 
-
+        
 // MARK: - Constant With Condition
 //let valueUndefined: Int
 //if constantValue > 20 {
@@ -37,6 +38,35 @@ import UIKit
 // MARK: - Declare Constant and Variable inline
 //var x = 8.0, y = 7.2, z = 11.1
 //print(x, y, z)
+
+
+// MARK: - Variable Declaration
+//class Square {
+//    var width: Double = 4 {
+//        willSet {
+//            print("Width will be set into \(newValue)")
+//        }
+//        didSet {
+//            print("Width has been changed from \(oldValue) to \(width)")
+//        }
+//    }
+//    var height: Double {
+//        return width
+//    }
+//    var area: Double {
+//        get {
+//            return width * width
+//        }
+//        set {
+//            width = sqrt(newValue)
+//        }
+//    }
+//}
+//
+//let square = Square()
+//print("Width: \(square.width), then the area: \(square.area)")
+//square.area = 64
+//print("Width: \(square.width), then the area: \(square.area)")
 
 
 // MARK: - Integer
@@ -115,7 +145,7 @@ import UIKit
 
 // MARK: - Optional
 //var optionalInt: Int? = 42
-//var optionalWithoutValue: String?
+//var optionalWithoutValue: String? = nil
 //let optionalConstantWithoutValue: String?
 //let optionalIntFromString = Int("123")
 
@@ -269,6 +299,14 @@ import UIKit
 
 // MARK: - Ternary Conditional Operator
 //let input = 5
+//
+//let a: String
+//if input % 2 == 0 {
+//    a = "it is true"
+//} else {
+//    a = "false"
+//}
+//
 //let a = input % 2 == 0 ? "it is true": "false"
 //let b = input % 2 == 1 ? "it is true": "false"
 
